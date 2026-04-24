@@ -14,7 +14,7 @@ export function About() {
               loading="lazy"
               width={896}
               height={1344}
-              className="absolute inset-x-0 bottom-0 mx-auto h-[110%] w-auto object-contain"
+               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
           <div className="absolute -bottom-8 -right-6 hidden w-40 overflow-hidden rounded-2xl border-4 border-background shadow-card sm:block">
