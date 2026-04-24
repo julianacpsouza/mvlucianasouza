@@ -1,27 +1,26 @@
 import dogHome from "@/assets/hero-dog-home.jpg";
-import vetPortrait from "@/assets/vet-portrait.png";
-import { MessageCircle, MapPin, Heart } from "lucide-react";
+import { MessageCircle, MapPin } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 md:pt-36 md:pb-24">
-      {/* Background photo */}
+    <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32 min-h-[88vh] flex items-center">
+      {/* Full-width background photo */}
       <div aria-hidden className="absolute inset-0 -z-10">
         <img
           src={dogHome}
-          alt=""
+          alt="Tutora abraçando seu cão feliz no conforto de casa"
           width={1920}
           height={1080}
           className="h-full w-full object-cover"
         />
-        {/* Soft overlay to keep text legible while preserving warmth */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/30 md:from-background/92 md:via-background/70 md:to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+        {/* Overlays for text legibility while preserving the warm photo */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/10 md:from-background/92 md:via-background/55 md:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </div>
 
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2 md:gap-12">
-        <div className="reveal">
-          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-primary">
+      <div className="mx-auto w-full max-w-6xl px-6">
+        <div className="reveal max-w-xl">
+          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/90 px-4 py-1.5 text-xs font-medium text-primary backdrop-blur">
             <MapPin className="h-3.5 w-3.5" />
             Atendimento em Sorocaba/SP
           </span>
@@ -60,32 +59,6 @@ export function Hero() {
             <div>
               <div className="font-display text-2xl font-semibold text-foreground">CRMV-SP</div>
               registrada
-            </div>
-          </div>
-        </div>
-
-        <div className="reveal relative hidden h-[520px] md:block">
-          {/* Soft halo behind portrait */}
-          <div
-            aria-hidden
-            className="absolute inset-x-8 bottom-0 top-12 rounded-[3rem] bg-gradient-brand opacity-20 blur-3xl"
-          />
-          {/* Cutout portrait */}
-          <img
-            src={vetPortrait}
-            alt="Luciana Souza, médica veterinária, sorrindo de jaleco branco"
-            width={896}
-            height={1344}
-            className="absolute inset-x-0 bottom-0 mx-auto h-full w-auto object-contain drop-shadow-[0_25px_40px_rgba(13,150,177,0.25)]"
-          />
-          {/* Floating reassurance card */}
-          <div className="absolute -bottom-2 left-0 flex items-center gap-3 rounded-2xl border border-border bg-card/95 px-5 py-4 shadow-card backdrop-blur">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-soft">
-              <Heart className="h-5 w-5 text-primary" />
-            </div>
-            <div>
-              <div className="text-xs text-muted-foreground">Atendimento humano</div>
-              <div className="font-display text-sm font-semibold text-foreground">Resposta em ~15 min</div>
             </div>
           </div>
         </div>
