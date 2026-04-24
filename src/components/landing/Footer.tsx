@@ -16,10 +16,10 @@ export function Footer() {
               <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
                 <PawPrint className="h-5 w-5" />
               </span>
-              Dra. Veterinária
+              Luciana Souza | Médica Veterinária
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Atendimento veterinário hospitalar em domicílio em Sorocaba/SP. CRMV-SP registrada.
+              Atendimento veterinário em domicílio em Sorocaba/SP. CRMV-SP registrada.
             </p>
             <div className="mt-6 flex items-center gap-3">
               <a
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Dra. Veterinária Sorocaba. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Luciana Souza | Médica Veterinária Sorocaba. Todos os direitos reservados.</p>
           <p>CRMV-SP nº 00000</p>
         </div>
       </div>
