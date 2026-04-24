@@ -26,8 +26,8 @@ export function Benefits() {
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             Por que em domicílio?
           </span>
-          <h2 className="mt-4 font-display text-3xl font-semibold text-foreground md:text-4xl">
-            Um atendimento pensado para o bem-estar real do seu pet.
+          <h2 className="mt-4 whitespace-pre-line font-display text-3xl font-semibold text-foreground md:text-4xl">
+            {"Um atendimento pensado para o\nbem-estar real do seu pet."}
           </h2>
         </div>
 
