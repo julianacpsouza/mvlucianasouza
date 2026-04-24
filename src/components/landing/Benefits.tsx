@@ -1,4 +1,5 @@
 import { HeartPulse, ShieldCheck, Clock } from "lucide-react";
+import petCat from "@/assets/pet-cat-care.jpg";
 
 const items = [
   {
@@ -22,16 +23,37 @@ export function Benefits() {
   return (
     <section id="beneficios" className="bg-background py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="reveal mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            Por que em domicílio?
-          </span>
-          <h2 className="mt-4 whitespace-pre-line font-display text-3xl font-semibold text-foreground md:text-4xl">
-            {"Um atendimento pensado para o\nbem-estar real do seu pet."}
-          </h2>
+        <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
+          <div className="reveal relative">
+            <div className="overflow-hidden rounded-[2rem] shadow-card">
+              <img
+                src={petCat}
+                alt="Gato sendo acariciado com carinho durante consulta veterinária em casa"
+                loading="lazy"
+                width={1280}
+                height={960}
+                className="aspect-[5/4] h-full w-full object-cover"
+              />
+            </div>
+            <div className="absolute -bottom-6 -right-6 hidden rounded-2xl border border-border bg-card px-5 py-4 shadow-card sm:block">
+              <p className="font-display text-sm font-semibold text-foreground">98% dos tutores</p>
+              <p className="text-xs text-muted-foreground">recomendam o atendimento</p>
+            </div>
+          </div>
+          <div className="reveal">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
+              Por que em domicílio?
+            </span>
+            <h2 className="mt-4 whitespace-pre-line font-display text-3xl font-semibold text-foreground md:text-4xl">
+              {"Um atendimento pensado para o\nbem-estar real do seu pet."}
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-muted-foreground">
+              Cada animal tem seu tempo, seu jeito e seus medos. Em casa, conseguimos respeitar cada detalhe — e cuidar com calma, escuta e afeto.
+            </p>
+          </div>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-3">
+        <div className="mt-20 grid gap-6 md:grid-cols-3">
           {items.map((item, i) => (
             <article
               key={item.title}
