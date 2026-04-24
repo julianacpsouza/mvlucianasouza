@@ -12,7 +12,7 @@ export function About() {
         </div>
         <div className="reveal md:col-span-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            Sobre a doutora
+            SOBRE
           </span>
           <h2 className="mt-4 font-display text-3xl font-semibold text-foreground md:text-4xl">
             Medicina veterinária com escuta, ciência e afeto.

@@ -15,7 +15,7 @@ export function Hero() {
             Atendimento em Sorocaba/SP
           </span>
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] text-foreground md:text-6xl">
-            Cuidado veterinário <span className="text-primary">hospitalar</span> no conforto do seu lar.
+            Cuidado veterinário no conforto do seu lar.
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
             Atendimento personalizado e sem estresse para o seu pet. Mais tempo, mais atenção, zero deslocamento.
@@ -28,7 +28,7 @@ export function Hero() {
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-brand transition-smooth hover:opacity-90"
             >
               <MessageCircle className="h-4 w-4" />
-              Agendar Visita via WhatsApp
+              Agendar Consulta via WhatsApp
             </a>
             <a
               href="#servicos"

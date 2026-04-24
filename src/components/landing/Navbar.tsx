@@ -30,7 +30,7 @@ export function Navbar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
             <PawPrint className="h-5 w-5" />
           </span>
-          Dra. Veterinária
+          Luciana Souza | Médica Veterinária
         </a>
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
@@ -49,7 +49,7 @@ export function Navbar() {
           rel="noopener noreferrer"
           className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-brand transition-smooth hover:opacity-90 sm:inline-flex"
         >
-          Agendar Visita
+          Agendar Consulta
         </a>
       </div>
     </header>
