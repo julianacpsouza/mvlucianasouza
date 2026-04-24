@@ -1,4 +1,5 @@
-import vetImage from "@/assets/vet-hero.jpg";
+import vetPortrait from "@/assets/vet-portrait.png";
+import petPaw from "@/assets/pet-paw-care.jpg";
 import { Award, GraduationCap, BadgeCheck } from "lucide-react";
 
 export function About() {
@@ -6,8 +7,25 @@ export function About() {
     <section id="sobre" className="bg-background py-24 md:py-32">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-5 md:gap-16">
         <div className="reveal relative md:col-span-2">
-          <div className="overflow-hidden rounded-[2rem] shadow-card">
-            <img src={vetImage} alt="Retrato da veterinária" loading="lazy" className="h-full w-full object-cover" />
+          <div className="relative overflow-hidden rounded-[2rem] bg-gradient-soft shadow-card aspect-[4/5]">
+            <img
+              src={vetPortrait}
+              alt="Dra. Luciana Souza, médica veterinária"
+              loading="lazy"
+              width={896}
+              height={1344}
+              className="absolute inset-x-0 bottom-0 mx-auto h-[110%] w-auto object-contain"
+            />
+          </div>
+          <div className="absolute -bottom-8 -right-6 hidden w-40 overflow-hidden rounded-2xl border-4 border-background shadow-card sm:block">
+            <img
+              src={petPaw}
+              alt="Veterinária segurando a patinha de um cãozinho"
+              loading="lazy"
+              width={400}
+              height={400}
+              className="h-32 w-full object-cover"
+            />
           </div>
         </div>
         <div className="reveal md:col-span-3">
