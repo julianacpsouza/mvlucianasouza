@@ -1,5 +1,5 @@
 import { HeartPulse, ShieldCheck, Clock } from "lucide-react";
-import petCat from "@/assets/gallery-2.jpg";
+import petCat from "@/assets/pet-dog-sofa.jpg";
 
 const items = [
   {
