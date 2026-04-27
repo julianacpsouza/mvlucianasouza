@@ -35,7 +35,7 @@ export function Hero() {
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://wa.me/5515998624102"
+              href="https://api.whatsapp.com/send?phone=5515998624102"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground shadow-brand transition-smooth hover:opacity-90"
