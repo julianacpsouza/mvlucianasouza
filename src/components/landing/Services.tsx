@@ -1,5 +1,5 @@
 import { Stethoscope, Syringe, FlaskConical, Cpu, Sparkles } from "lucide-react";
-import petDog from "@/assets/gallery-1.jpg";
+import petDog from "@/assets/pet-cat-care.jpg";
 
 const services = [
   { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliação rigorosa e check-up preventivo realizados com calma, no tempo e no ambiente do seu pet." },

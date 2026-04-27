@@ -1,5 +1,4 @@
 import vetPortrait from "@/assets/vet-portrait.png";
-import petPaw from "@/assets/gallery-3.jpg";
 import { Award, GraduationCap, BadgeCheck } from "lucide-react";
 
 export function About() {
@@ -17,16 +16,7 @@ export function About() {
                className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-8 -right-6 hidden w-40 overflow-hidden rounded-2xl border-4 border-background shadow-card sm:block">
-            <img
-              src={petPaw}
-              alt="Veterinária segurando a patinha de um cãozinho"
-              loading="lazy"
-              width={400}
-              height={400}
-              className="h-32 w-full object-cover"
-            />
-          </div>
+          <div className="absolute -bottom-8 -right-6 hidden h-32 w-40 rounded-2xl border-4 border-background bg-muted shadow-card sm:block" aria-hidden="true" />
         </div>
         <div className="reveal md:col-span-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
