@@ -54,7 +54,7 @@
 :root {
   --radius: 0.75rem;
   /* Brand: #0d96b1 — used as accent only */
-  --background: oklch(1 0 0);
+  --background: oklch(0.953 0.012 75);
   --foreground: oklch(0.22 0.03 230);
   --surface: oklch(0.985 0.005 220);
   --card: oklch(1 0 0);
