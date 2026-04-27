@@ -7,7 +7,7 @@ const bairros = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-surface py-16">
+    <footer id="contato" className="border-t border-border bg-surface py-16">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 md:grid-cols-3">
           <div>
@@ -58,6 +58,7 @@ export function Footer() {
             <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
               <li>WhatsApp: (15) 99862-4102</li>
               <li>mv.lucianasouza@gmail.com</li>
+              <li>Instagram: @seu_instagram</li>
               <li>Sorocaba — SP</li>
               <li className="whitespace-pre-line">
                 Atendimento:
