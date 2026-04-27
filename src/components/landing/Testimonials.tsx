@@ -3,7 +3,7 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const items = [
   {
-    name: "Daniele, tutora da Olívia",
+    name: "Fernanda Mariano",
     text: "Atendimento maravilhoso! A Dra. Luciana é super atenciosa, carinhosa e cuida da minha cachorra Olívia com muito amor (e biscoitinhos 🐶). A Olívia já é velhinha então o atendimento em casa faz toda a diferença. Recomendo demais! Obrigada por tudo, Lu 💚",
   },
   {
@@ -12,7 +12,7 @@ const items = [
   },
   {
     name: "Camila, tutora da Nina",
-    text: "Vacinação importada, exame de sangue e tudo na minha sala. Diferença absurda em comparação ao estresse da clínica.",
+    text: "Dra Luciana a melhor vet de Sorocaba ❤️ cuida dos meus bichinhos a varios anos! So gratidao",
   },
 ];
 

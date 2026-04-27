@@ -26,8 +26,8 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-2 font-display text-lg font-semibold text-foreground">
+      <div className={`mx-auto flex max-w-6xl items-center justify-between px-6 py-4 ${!scrolled ? "bg-[#5e2626]/[0%] text-white" : ""}`}>
+        <a href="#" className={`flex items-center gap-2 font-display text-lg font-semibold ${!scrolled ? "text-white" : "text-foreground"}`}>
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
             <PawPrint className="h-5 w-5" />
           </span>
@@ -38,7 +38,7 @@ export function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-muted-foreground transition-smooth hover:text-primary"
+              className={`text-sm font-medium transition-smooth hover:text-primary ${!scrolled ? "text-white" : "text-muted-foreground"}`}
             >
               {l.label}
             </a>
