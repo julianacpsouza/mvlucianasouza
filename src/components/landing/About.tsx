@@ -35,12 +35,23 @@ export function About() {
           <h2 className="mt-4 font-display text-3xl font-semibold text-foreground md:text-4xl">
             Medicina veterinária com escuta, ciência e afeto.
           </h2>
-          <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-            Formada pela Universidade Estadual Paulista (UNESP) e com mais de 8 anos de experiência clínica, a Dra. dedica seu trabalho ao atendimento humanizado em domicílio. Acredita que o ambiente familiar é peça-chave para diagnósticos precisos e tratamentos bem-sucedidos.
-          </p>
+          <div className="mt-6 text-base leading-relaxed text-muted-foreground space-y-4 whitespace-pre-line">
+            <p>
+              A medicina veterinária sempre foi minha vocação, mas a vivência prática me ensinou que ela vai muito além do amor pelos animais: é uma profissão de grandes desafios, decisões rápidas e muita responsabilidade.
+            </p>
+            <p>
+              Durante minha trajetória profissional, atuei na linha de frente de clínicas e hospitais veterinários. Vivenciei a rotina intensa das internações e o volume alto de atendimentos. Foi justamente nesse cenário de ritmo acelerado que percebi algo importante: o ambiente hospitalar salva vidas, mas o estresse e a pressa da rotina clínica muitas vezes dificultam a conexão real com o paciente e mascaram sinais essenciais para um diagnóstico minucioso.
+            </p>
+            <p>
+              Foi assim que me encontrei no atendimento em domicílio. Nele, posso resgatar a essência da medicina: ouvir o histórico com paciência, observar o animal em seu habitat natural e conduzir o exame físico respeitando o tempo de cada paciente.
+            </p>
+            <p>
+              Para mim, o verdadeiro acolhimento exige excelência técnica. Sou especialista em Infectologia Veterinária e, atualmente, realizo minha formação em Neurologia. São áreas complexas que demandam um olhar clínico rigoroso e investigativo — algo que a tranquilidade e o foco do atendimento domiciliar me permitem exercer com precisão. Meu compromisso é entregar uma medicina de ponta, garantindo o melhor cuidado sem que seu pet precise cruzar a porta de casa.
+            </p>
+          </div>
           <ul className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              { icon: GraduationCap, label: "Formação", value: "UNESP" },
+              { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
               { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
               { icon: Award, label: "Especialização", value: "Clínica de Pequenos" },
             ].map((it) => (

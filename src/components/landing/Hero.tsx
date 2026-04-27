@@ -25,14 +25,14 @@ export function Hero() {
             Atendimento em Sorocaba/SP
           </span>
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] text-foreground md:text-6xl">
-            Cuidado veterinário no conforto do seu lar.
+            Saúde e carinho, sem sair de casa{" "}
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
-            Um atendimento próximo, atento e humano — porque seu pet merece se sentir seguro e amado mesmo durante a consulta.
+            Atendimento veterinário humanizado, com calma e atenção exclusiva. Mais bem-estar para o seu pet e comodidade para você.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a
-              href="https://wa.me/5515999999999"
+              href="https://wa.me/5515998624102"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-brand transition-smooth hover:opacity-90"

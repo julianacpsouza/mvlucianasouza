@@ -4,18 +4,18 @@ import petCat from "@/assets/pet-cat-care.jpg";
 const items = [
   {
     icon: HeartPulse,
-    title: "Zero estresse",
-    desc: "Sem caixas de transporte, deslocamentos ou salas de espera. Seu pet permanece em ambiente familiar.",
+    title: "Diagnóstico Fiel",
+    desc: "Sem o estresse do trajeto e o medo do ambiente clínico, o pet age naturalmente. O corpo relaxado não altera batimentos ou respiração, permitindo uma avaliação muito mais segura e confiável.",
   },
   {
     icon: ShieldCheck,
     title: "Ambiente seguro",
-    desc: "Proteção contra doenças infectocontagiosas comuns em clínicas e ambientes coletivos.",
+    desc: "Seu pet não divide a sala de espera com animais doentes. O atendimento domiciliar zera o risco de exposição a vírus e parasitas de ambientes com grande circulação. Especialmente importante em casos de cães com baixa imunidade e filhotes que ainda não completaram o ciclo vacinal.",
   },
   {
     icon: Clock,
     title: "Atenção exclusiva",
-    desc: "Consultas mais longas, com tempo para observar o comportamento do animal em casa.",
+    desc: "Sem relógio ou senhas de espera. A consulta dura o tempo necessário para respeitar o limite do animal, ouvir todo o histórico e orientar a família com clareza e tranquilidade.",
   },
 ];
 
@@ -45,10 +45,10 @@ export function Benefits() {
               Por que em domicílio?
             </span>
             <h2 className="mt-4 font-display text-3xl font-semibold text-foreground md:text-4xl">
-              Um atendimento pensado para o bem-estar real do seu pet.
+              Atendimento pensado para o bem-estar real do seu pet.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
-              Cada animal tem seu tempo, seu jeito e seus medos. Em casa, conseguimos respeitar cada detalhe — e cuidar com calma, escuta e afeto.
+              Cada animal tem seu tempo, seu jeito e seus medos. Em casa, conseguimos respeitar esse ritmo e realizar um exame clínico detalhado, sem que o estresse do ambiente clínico altere os resultados. É a medicina veterinária exercida com calma, técnica e afeto.
             </p>
           </div>
         </div>

@@ -2,8 +2,7 @@ import { Instagram, MessageCircle, MapPin, PawPrint } from "lucide-react";
 
 const bairros = [
   "Campolim", "Santa Rosália", "Wanel Ville", "Jardim Vergueiro",
-  "Parque Campolim", "Jardim Europa", "Trujillo", "Vila Hortência",
-  "Jardim Paulistano", "Vila Trujillo",
+  "Jardim Europa", "Trujillo", "Vila Trujillo", "Consulte outros",
 ];
 
 export function Footer() {
@@ -23,7 +22,7 @@ export function Footer() {
             </p>
             <div className="mt-6 flex items-center gap-3">
               <a
-                href="https://wa.me/5515999999999"
+                href="https://wa.me/5515998624102"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
@@ -57,10 +56,14 @@ export function Footer() {
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Contato</h3>
             <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
-              <li>WhatsApp: (15) 99999-9999</li>
-              <li>contato@dravet.com.br</li>
+              <li>WhatsApp: (15) 99862-4102</li>
+              <li>mv.lucianasouza@gmail.com</li>
               <li>Sorocaba — SP</li>
-              <li>Atendimento: Seg a Sáb, 8h–19h</li>
+              <li className="whitespace-pre-line">
+                Atendimento:
+                {"\n"}Seg a Sex, 8h–18h
+                {"\n"}Sáb, 8h-14h
+              </li>
             </ul>
           </div>
         </div>
