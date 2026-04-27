@@ -2,11 +2,11 @@ import { Stethoscope, Syringe, FlaskConical, Cpu, Sparkles } from "lucide-react"
 import petDog from "@/assets/gallery-1.jpg";
 
 const services = [
-  { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliações completas e check-ups preventivos." },
-  { icon: Syringe, title: "Vacinação", desc: "Protocolos internacionais com vacinas importadas." },
+  { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliação rigorosa e check-up preventivo realizados com calma, no tempo e no ambiente do seu pet." },
+  { icon: Syringe, title: "Vacinação", desc: "Proteção com vacinas importadas de alto padrão. " },
   { icon: FlaskConical, title: "Coleta de exames", desc: "Sangue, urina e demais materiais laboratoriais." },
   { icon: Cpu, title: "Microchipagem", desc: "Identificação para viagens nacionais e internacionais." },
-  { icon: Sparkles, title: "Bem-estar e manejo", desc: "Orientações nutricionais e comportamentais." },
+  { icon: Sparkles, title: "Certificado para viagem", desc: "Emissão de atestados de saúde e orientações para o transporte nacional e internacional (CVI)." },
 ];
 
 export function Services() {
