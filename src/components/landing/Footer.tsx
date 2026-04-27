@@ -31,7 +31,7 @@ export function Footer() {
                 <MessageCircle className="h-4 w-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/mv.lucianasouza"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -58,7 +58,7 @@ export function Footer() {
             <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
               <li>WhatsApp: (15) 99862-4102</li>
               <li>mv.lucianasouza@gmail.com</li>
-              <li>Instagram: @seu_instagram</li>
+              <li>Instagram: @mv.lucianasouza</li>
               <li>Sorocaba — SP</li>
               <li className="whitespace-pre-line">
                 Atendimento:
