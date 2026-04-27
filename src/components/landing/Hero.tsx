@@ -1,6 +1,10 @@
 import dogHome from "@/assets/hero-dog-home.jpg";
 import { MessageCircle, MapPin } from "lucide-react";
 
+// 🖼️ Imagem destacada do Hero (lateral). Substitua o import abaixo
+// pelo caminho da sua nova foto em src/assets/ quando quiser trocar.
+import heroSideImage from "@/assets/vet-portrait.png";
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32 min-h-[88vh] flex items-center">
@@ -19,7 +23,8 @@ export function Hero() {
       </div>
 
       <div className="mx-auto w-full max-w-6xl px-6">
-        <div className="reveal max-w-xl">
+        <div className="grid items-center gap-12 md:grid-cols-2">
+          <div className="reveal max-w-xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/90 px-4 py-1.5 text-xs font-medium text-primary backdrop-blur">
             <MapPin className="h-3.5 w-3.5" />
             Atendimento em Sorocaba/SP
@@ -59,6 +64,18 @@ export function Hero() {
             <div>
               <div className="font-display text-2xl font-semibold text-foreground">CRMV-SP</div>
               registrada
+            </div>
+          </div>
+          </div>
+
+          {/* 🖼️ Imagem editável do Hero — troque o import `heroSideImage` no topo do arquivo */}
+          <div className="reveal hidden md:block">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl border border-border bg-card shadow-brand">
+              <img
+                src={heroSideImage}
+                alt="Imagem de destaque"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>
