@@ -22,7 +22,7 @@ export function Footer() {
             </p>
             <div className="mt-6 flex items-center gap-3">
               <a
-                href="https://wa.me/5515998624102"
+                href="https://api.whatsapp.com/send?phone=5515998624102"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
