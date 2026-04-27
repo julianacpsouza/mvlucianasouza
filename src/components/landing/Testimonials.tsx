@@ -3,8 +3,8 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const items = [
   {
-    name: "Mariana, tutora da Mel",
-    text: "A doutora foi maravilhosa. A Mel ficou completamente tranquila no sofá, sem trauma nenhum. Não volto mais para clínica.",
+    name: "Daniele, tutora da Olívia",
+    text: "Atendimento maravilhoso! A Dra. Luciana é super atenciosa, carinhosa e cuida da minha cachorra Olívia com muito amor (e biscoitinhos 🐶). A Olívia já é velhinha então o atendimento em casa faz toda a diferença. Recomendo demais! Obrigada por tudo, Lu 💚",
   },
   {
     name: "Fábio Hosoi",

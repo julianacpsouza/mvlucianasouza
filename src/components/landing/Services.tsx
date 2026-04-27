@@ -1,12 +1,12 @@
 import { Stethoscope, Syringe, FlaskConical, Cpu, Sparkles } from "lucide-react";
-import petDog from "@/assets/pet-dog-sofa.jpg";
+import petDog from "@/assets/gallery-1.jpg";
 
 const services = [
-  { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliações completas e check-ups preventivos." },
-  { icon: Syringe, title: "Vacinação", desc: "Protocolos internacionais com vacinas importadas." },
+  { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliação rigorosa e check-up preventivo realizados com calma, no tempo e no ambiente do seu pet." },
+  { icon: Syringe, title: "Vacinação", desc: "Proteção com vacinas importadas de alto padrão. " },
   { icon: FlaskConical, title: "Coleta de exames", desc: "Sangue, urina e demais materiais laboratoriais." },
   { icon: Cpu, title: "Microchipagem", desc: "Identificação para viagens nacionais e internacionais." },
-  { icon: Sparkles, title: "Bem-estar e manejo", desc: "Orientações nutricionais e comportamentais." },
+  { icon: Sparkles, title: "Certificado para viagem", desc: "Emissão de atestados de saúde e orientações para o transporte nacional e internacional (CVI)." },
 ];
 
 export function Services() {
@@ -23,7 +23,7 @@ export function Services() {
             </h2>
           </div>
           <p className="text-base leading-relaxed text-muted-foreground">
-            Cada visita inclui anamnese completa, exame físico detalhado e plano terapêutico individualizado para o seu animal.
+            Uma avaliação que vai além do básico. Cada consulta inclui uma escuta atenta do histórico de saúde, um exame físico minucioso e um plano de tratamento criado exclusivamente para a realidade do seu pet.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import dogHome from "@/assets/hero-dog-home.jpg";
+import dogHome from "@/assets/gallery-5.jpg";
 import { MessageCircle, MapPin } from "lucide-react";
 
 // 🖼️ Imagem destacada do Hero (lateral). Substitua o import abaixo
@@ -27,7 +27,7 @@ export function Hero() {
           <div className="reveal max-w-xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/90 px-4 py-1.5 text-xs font-medium text-primary backdrop-blur">
             <MapPin className="h-3.5 w-3.5" />
-            Atendimento em Sorocaba/SP
+            Atendimento Veterinário em Sorocaba/SP
           </span>
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] text-foreground md:text-6xl">
             Saúde e carinho, sem sair de casa{" "}
@@ -54,7 +54,7 @@ export function Hero() {
           </div>
           <div className="mt-10 flex items-center gap-6 border-t border-border/70 pt-6 text-xs text-muted-foreground">
             <div>
-              <div className="font-display text-2xl font-semibold text-foreground">+8</div>
+              <div className="font-display text-2xl font-semibold text-foreground">+12</div>
               anos de experiência
             </div>
             <div>

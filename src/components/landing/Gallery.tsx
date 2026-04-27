@@ -1,8 +1,8 @@
-import gallery1 from "@/assets/pet-dog-sofa.jpg";
-import gallery2 from "@/assets/pet-cat-care.jpg";
-import gallery3 from "@/assets/pet-paw-care.jpg";
-import gallery4 from "@/assets/vet-hero.jpg";
-import gallery5 from "@/assets/hero-dog-home.jpg";
+import gallery1 from "@/assets/gallery-1.jpg";
+import gallery2 from "@/assets/gallery-2.jpg";
+import gallery3 from "@/assets/gallery-3.jpg";
+import gallery4 from "@/assets/gallery-4.jpg";
+import gallery5 from "@/assets/gallery-5.jpg";
 
 // 📸 Edite este array para trocar/adicionar fotos do carrossel.
 // Basta substituir o `src` pelo caminho da nova imagem em src/assets/
