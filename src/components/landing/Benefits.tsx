@@ -1,5 +1,5 @@
 import { HeartPulse, ShieldCheck, Clock } from "lucide-react";
-import petCat from "@/assets/pet-cat-care.jpg";
+import petCat from "@/assets/gallery-2.jpg";
 
 const items = [
   {
@@ -36,8 +36,8 @@ export function Benefits() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 hidden rounded-2xl border border-border bg-card px-5 py-4 shadow-card sm:block">
-              <p className="font-display text-sm font-semibold text-foreground">98% dos tutores</p>
-              <p className="text-xs text-muted-foreground">recomendam o atendimento</p>
+              <p className="font-display text-sm font-semibold text-foreground">A escolha mais segura </p>
+              <p className="text-xs text-muted-foreground">especialmente para idosos e filhotes.</p>
             </div>
           </div>
           <div className="reveal">

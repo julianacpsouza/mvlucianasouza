@@ -1,5 +1,5 @@
 import { Stethoscope, Syringe, FlaskConical, Cpu, Sparkles } from "lucide-react";
-import petDog from "@/assets/pet-dog-sofa.jpg";
+import petDog from "@/assets/gallery-1.jpg";
 
 const services = [
   { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliações completas e check-ups preventivos." },
@@ -23,7 +23,7 @@ export function Services() {
             </h2>
           </div>
           <p className="text-base leading-relaxed text-muted-foreground">
-            Cada visita inclui anamnese completa, exame físico detalhado e plano terapêutico individualizado para o seu animal.
+            Uma avaliação que vai além do básico. Cada consulta inclui uma escuta atenta do histórico de saúde, um exame físico minucioso e um plano de tratamento criado exclusivamente para a realidade do seu pet.
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import vetPortrait from "@/assets/vet-portrait.png";
-import petPaw from "@/assets/pet-paw-care.jpg";
+import petPaw from "@/assets/gallery-3.jpg";
 import { Award, GraduationCap, BadgeCheck } from "lucide-react";
 
 export function About() {
