@@ -6,9 +6,9 @@ import heroBackground from "@/assets/hero-cozy-pet.jpg";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden min-h-[92vh] flex items-center justify-center">
+    <section className="relative isolate overflow-hidden min-h-[92vh] flex items-center justify-center">
       {/* Full-width background photo */}
-      <div aria-hidden className="absolute inset-0 -z-10">
+      <div aria-hidden className="absolute inset-0 z-0">
         <img
           src={heroBackground}
           alt="Pet calmo e aconchegado descansando em casa"
@@ -21,7 +21,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/30 to-black/70" />
       </div>
 
-      <div className="mx-auto w-full max-w-4xl px-6 py-32 md:py-40 text-center">
+      <div className="relative z-10 mx-auto w-full max-w-4xl px-6 py-32 md:py-40 text-center">
         <div className="reveal">
           <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium text-white backdrop-blur">
             <MapPin className="h-3.5 w-3.5" />
