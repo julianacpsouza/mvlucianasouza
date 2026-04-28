@@ -4,21 +4,21 @@ import { Award, GraduationCap, BadgeCheck } from "lucide-react";
 export function About() {
   return (
     <section id="sobre" className="bg-background py-24 md:py-32">
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-5 md:gap-16">
-        <div className="reveal relative md:col-span-2">
-          <div className="relative overflow-hidden rounded-[2rem] bg-gradient-soft shadow-card aspect-[4/5]">
-            <img
-              src={vetPortrait}
-              alt="Dra. Luciana Souza, médica veterinária"
-              loading="lazy"
-              width={896}
-              height={1344}
-               className="absolute inset-0 h-full w-full object-cover"
-            />
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="grid items-center gap-12 md:grid-cols-5 md:gap-16">
+          <div className="reveal relative md:col-span-2">
+            <div className="relative overflow-hidden rounded-[2rem] bg-gradient-soft shadow-card aspect-[4/5]">
+              <img
+                src={vetPortrait}
+                alt="Dra. Luciana Souza, médica veterinária"
+                loading="lazy"
+                width={896}
+                height={1344}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
           </div>
-          <div className="absolute -bottom-8 -right-6 hidden h-32 w-40 rounded-2xl border-4 border-background bg-muted shadow-card sm:block" aria-hidden="true" />
-        </div>
-        <div className="reveal md:col-span-3">
+          <div className="reveal md:col-span-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             SOBRE
           </span>
@@ -39,21 +39,22 @@ export function About() {
               Para mim, o verdadeiro acolhimento exige excelência técnica. Sou especialista em Infectologia Veterinária e, atualmente, realizo minha pós-graduação em Neurologia, pela Bioethicus. São áreas complexas que demandam um olhar clínico rigoroso e investigativo — algo que a tranquilidade e o foco do atendimento domiciliar me permitem exercer com precisão. Meu compromisso é entregar uma medicina de ponta, garantindo o melhor cuidado sem que seu pet precise cruzar a porta de casa.
             </p>
           </div>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
-              { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
-              { icon: Award, label: "Residência", value: "Infectologia" },
-              { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
-            ].map((it) => (
-              <li key={it.label} className="rounded-xl border border-border bg-card p-4">
-                <it.icon className="h-5 w-5 text-primary" />
-                <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
-                <div className="font-display text-base font-semibold text-foreground">{it.value}</div>
-              </li>
-            ))}
-          </ul>
+          </div>
         </div>
+        <ul className="reveal mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 md:mt-16">
+          {[
+            { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
+            { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
+            { icon: Award, label: "Residência", value: "Infectologia" },
+            { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
+          ].map((it) => (
+            <li key={it.label} className="rounded-xl border border-border bg-card p-4">
+              <it.icon className="h-5 w-5 text-primary" />
+              <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
+              <div className="font-display text-base font-semibold text-foreground">{it.value}</div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
