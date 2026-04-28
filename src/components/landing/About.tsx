@@ -20,7 +20,7 @@ export function About() {
             <ul className="mt-6 grid gap-4 grid-cols-2 lg:grid-cols-4">
               {[
                 { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
-                { icon: BadgeCheck, label: "CRMV-SP", value: "35414" },
+                { icon: BadgeCheck, label: "CRMV-SP", value: "CRMV-SP\n35414" },
                 { icon: Award, label: "Residência", value: "Infectologia/Unesp Botucatu" },
                 { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
               ].map((it) => (
