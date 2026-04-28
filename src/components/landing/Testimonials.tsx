@@ -11,7 +11,7 @@ const items = [
     text: "A Dra Luciana é extremamente competente e auxilia minha família já a alguns anos. Ela nos atende na nossa casa, o que eh ótimo para os nossos gatos que estressam demais em qquer saida. Ela tem muito jeito com os pets, no caso da minha família são gatos, e já nos orientou nas melhores e piores horas! Inclusive eh extremamente didática e consegue nos fazer compreender melhor o que está acontecendo, diferente de alguns locais onde o gato vai pela porta e depois de mto tempo chega apenas a conta e zero explicações. Recomendo a todos.",
   },
   {
-    name: "Camila, tutora da Nina",
+    name: "Fernanda Mariano",
     text: "Dra Luciana a melhor vet de Sorocaba ❤️ cuida dos meus bichinhos a varios anos! So gratidao",
   },
 ];
