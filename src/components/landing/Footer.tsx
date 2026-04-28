@@ -70,7 +70,7 @@ export function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
           <p>© {new Date().getFullYear()} Luciana Souza | Médica Veterinária Sorocaba. Todos os direitos reservados.</p>
-          <p>CRMV-SP nº 00000</p>
+          <p>CRMV-SP nº 35414</p>
         </div>
       </div>
     </footer>
