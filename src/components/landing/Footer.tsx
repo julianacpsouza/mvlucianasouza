@@ -18,7 +18,7 @@ export function Footer() {
               Luciana Souza | Médica Veterinária
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Atendimento veterinário em domicílio em Sorocaba/SP. CRMV-SP registrada.
+              Atendimento veterinário em domicílio em Sorocaba/SP. CRMV-SP 35414.
             </p>
             <div className="mt-6 flex items-center gap-3">
               <a
