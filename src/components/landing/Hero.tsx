@@ -61,7 +61,7 @@ export function Hero() {
             </div>
             <div>
               <div className="font-display text-2xl font-semibold text-white">CRMV-SP</div>
-              registrada
+              35414
             </div>
           </div>
         </div>
