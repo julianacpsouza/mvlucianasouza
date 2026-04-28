@@ -27,7 +27,7 @@ export function About() {
                 <li key={it.label} className="rounded-xl border border-border bg-card p-4">
                   <it.icon className="h-5 w-5 text-primary" />
                   <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
-                  <div className="font-display text-base font-semibold text-foreground">{it.value}</div>
+                  <div className="font-display text-base font-semibold text-foreground whitespace-pre-line">{it.value}</div>
                 </li>
               ))}
             </ul>
