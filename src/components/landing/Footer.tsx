@@ -60,11 +60,7 @@ export function Footer() {
               <li>mv.lucianasouza@gmail.com</li>
               <li>Instagram: @mv.lucianasouza</li>
               <li>Sorocaba — SP</li>
-              <li className="whitespace-pre-line">
-                Atendimento:
-                {"\n"}Seg a Sex, 8h–18h
-                {"\n"}Sáb, 8h-14h
-              </li>
+              <li>Atendimento: Seg a Sex, 8h–18h | Sáb, 8h-14h</li>
             </ul>
           </div>
         </div>
