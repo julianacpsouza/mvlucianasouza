@@ -17,20 +17,6 @@ export function About() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
-            <ul className="mt-6 grid gap-4 grid-cols-2 lg:grid-cols-4">
-              {[
-                { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
-                { icon: BadgeCheck, label: "CRMV-SP", value: "35414" },
-                { icon: Award, label: "Residência", value: "Infectologia/Unesp Botucatu" },
-                { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
-              ].map((it) => (
-                <li key={it.label} className="rounded-xl border border-border bg-card p-4">
-                  <it.icon className="h-5 w-5 text-primary" />
-                  <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
-                  <div className="font-display text-base font-semibold text-foreground whitespace-pre-line">{it.value}</div>
-                </li>
-              ))}
-            </ul>
           </div>
           <div className="reveal md:col-span-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
@@ -55,6 +41,20 @@ export function About() {
           </div>
           </div>
         </div>
+        <ul className="reveal mt-12 grid gap-4 grid-cols-2 lg:grid-cols-4">
+          {[
+            { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
+            { icon: BadgeCheck, label: "CRMV-SP", value: "35414" },
+            { icon: Award, label: "Residência", value: "Infectologia/Unesp Botucatu" },
+            { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
+          ].map((it) => (
+            <li key={it.label} className="rounded-xl border border-border bg-card p-4">
+              <it.icon className="h-5 w-5 text-primary" />
+              <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
+              <div className="font-display text-base font-semibold text-foreground whitespace-pre-line">{it.value}</div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
