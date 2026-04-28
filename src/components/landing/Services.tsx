@@ -1,4 +1,4 @@
-import { Stethoscope, Syringe, FlaskConical, Cpu, Sparkles } from "lucide-react";
+import { Stethoscope, Syringe, FlaskConical, Cpu, HeartPulse, Users, Activity, Bandage } from "lucide-react";
 import petDog from "@/assets/pet-cat-care.jpg";
 
 const services = [
@@ -6,7 +6,10 @@ const services = [
   { icon: Syringe, title: "Vacinação", desc: "Proteção com vacinas importadas de alto padrão. " },
   { icon: FlaskConical, title: "Coleta de exames", desc: "Sangue, urina e demais materiais laboratoriais." },
   { icon: Cpu, title: "Microchipagem", desc: "Identificação para viagens nacionais e internacionais." },
-  { icon: Sparkles, title: "Certificado para viagem", desc: "Emissão de atestados de saúde e orientações para o transporte nacional e internacional (CVI)." },
+  { icon: HeartPulse, title: "Suporte Terapêutico", desc: "Realização de medicações e exames solicitados por profissionais externos, com todo o rigor técnico e o conforto do atendimento em casa." },
+  { icon: Users, title: "Parcerias Especializadas", desc: "Encaminhamento para exames de imagem e especialistas parceiros. Centralizamos todo o cuidado para que você e seu pet tenham suporte completo." },
+  { icon: Activity, title: "Pós-Operatório", desc: "Acompanhamento dedicado para uma recuperação segura, com manejo de dor e cuidados específicos que seu pet precisa após uma cirurgia." },
+  { icon: Bandage, title: "Procedimentos e Cuidados", desc: "Realização de curativos e aplicação de medicamentos injetáveis ou orais, conforme necessidade." },
 ];
 
 export function Services() {

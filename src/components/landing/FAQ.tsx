@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "Quais formas de pagamento são aceitas?",
-    a: "Pix, dinheiro, débito e crédito (em até 3x sem juros pela maquininha portátil).",
+    a: "Pix, dinheiro, débito e crédito (parcelado com juros da maquininha).",
   },
   {
     q: "É possível atender emergências?",

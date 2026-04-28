@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const items = [
@@ -18,10 +18,6 @@ const items = [
 
 export function Testimonials() {
   const [i, setI] = useState(0);
-  useEffect(() => {
-    const t = setInterval(() => setI((p) => (p + 1) % items.length), 6000);
-    return () => clearInterval(t);
-  }, []);
 
   return (
     <section className="bg-surface py-24 md:py-32">
