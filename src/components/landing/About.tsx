@@ -17,7 +17,7 @@ export function About() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
-            <ul className="mt-6 grid gap-4 grid-cols-2">
+            <ul className="mt-6 grid gap-4 grid-cols-2 lg:grid-cols-4">
               {[
                 { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
                 { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
