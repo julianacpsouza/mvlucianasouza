@@ -5,8 +5,8 @@ export function About() {
   return (
     <section id="sobre" className="bg-background py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="grid items-center gap-12 md:grid-cols-5 md:gap-16">
-          <div className="reveal relative md:col-span-2">
+        <div className="grid items-start gap-12 md:grid-cols-5 md:gap-16">
+          <div className="reveal md:col-span-2">
             <div className="relative overflow-hidden rounded-[2rem] bg-gradient-soft shadow-card aspect-[4/5]">
               <img
                 src={vetPortrait}
@@ -17,6 +17,20 @@ export function About() {
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
+            <ul className="mt-6 grid gap-4 grid-cols-2">
+              {[
+                { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
+                { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
+                { icon: Award, label: "Residência", value: "Infectologia" },
+                { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
+              ].map((it) => (
+                <li key={it.label} className="rounded-xl border border-border bg-card p-4">
+                  <it.icon className="h-5 w-5 text-primary" />
+                  <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
+                  <div className="font-display text-base font-semibold text-foreground">{it.value}</div>
+                </li>
+              ))}
+            </ul>
           </div>
           <div className="reveal md:col-span-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
@@ -41,20 +55,6 @@ export function About() {
           </div>
           </div>
         </div>
-        <ul className="reveal mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 md:mt-16">
-          {[
-            { icon: GraduationCap, label: "Formação", value: "UNESP/Botucatu" },
-            { icon: BadgeCheck, label: "Registro", value: "CRMV-SP" },
-            { icon: Award, label: "Residência", value: "Infectologia" },
-            { icon: GraduationCap, label: "Pós-graduação", value: "Neurologia (em andamento)" },
-          ].map((it) => (
-            <li key={it.label} className="rounded-xl border border-border bg-card p-4">
-              <it.icon className="h-5 w-5 text-primary" />
-              <div className="mt-3 text-xs uppercase tracking-wide text-muted-foreground">{it.label}</div>
-              <div className="font-display text-base font-semibold text-foreground">{it.value}</div>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );
