@@ -3,7 +3,7 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const items = [
   {
-    name: "Fernanda Mariano",
+    name: "Fernanda Oliveira",
     text: "Atendimento maravilhoso! A Dra. Luciana é super atenciosa, carinhosa e cuida da minha cachorra Olívia com muito amor (e biscoitinhos 🐶). A Olívia já é velhinha então o atendimento em casa faz toda a diferença. Recomendo demais! Obrigada por tudo, Lu 💚",
   },
   {
