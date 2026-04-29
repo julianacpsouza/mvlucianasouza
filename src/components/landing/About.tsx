@@ -36,7 +36,7 @@ export function About() {
               Foi assim que me encontrei no atendimento em domicílio. Nele, posso resgatar a essência da medicina: ouvir o histórico com paciência, observar o animal em seu habitat natural e conduzir o exame físico respeitando o tempo de cada paciente.
             </p>
             <p>
-              Para mim, o verdadeiro acolhimento exige excelência técnica. Sou especialista em Infectologia Veterinária e, atualmente, realizo minha pós-graduação em Neurologia, pela Bioethicus. São áreas complexas que demandam um olhar clínico rigoroso e investigativo — algo que a tranquilidade e o foco do atendimento domiciliar me permitem exercer com precisão. Meu compromisso é entregar uma medicina de ponta, garantindo o melhor cuidado sem que seu pet precise cruzar a porta de casa.
+              Para mim, o verdadeiro acolhimento exige excelência técnica. Sou especialista em Infectologia Veterinária e, atualmente, realizo minha pós-graduação em Neurologia, pelo Instituto Bioethicus. São áreas complexas que demandam um olhar clínico rigoroso e investigativo — algo que a tranquilidade e o foco do atendimento domiciliar me permitem exercer com precisão. Meu compromisso é entregar uma medicina de ponta, garantindo o melhor cuidado sem que seu pet precise cruzar a porta de casa.
             </p>
           </div>
           </div>
