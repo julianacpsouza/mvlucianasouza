@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/landing/Navbar";
 import { Hero } from "@/components/landing/Hero";
 import { Benefits } from "@/components/landing/Benefits";
@@ -11,12 +10,9 @@ import { Footer } from "@/components/landing/Footer";
 import { WhatsAppFab } from "@/components/landing/WhatsAppFab";
 import { useReveal } from "@/components/landing/useReveal";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
-
-function Index() {
+export function App() {
   useReveal();
+
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
