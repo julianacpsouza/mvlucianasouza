@@ -4,7 +4,7 @@ import petDog from "@/assets/pet-cat-care.jpg";
 const services = [
   { icon: Stethoscope, title: "Consultas clínicas", desc: "Avaliação rigorosa e check-up preventivo realizados com calma, no tempo e no ambiente do seu pet." },
   { icon: Syringe, title: "Vacinação", desc: "Proteção com vacinas importadas de alto padrão. " },
-  { icon: FlaskConical, title: "Coleta de exames", desc: "Sangue, urina e demais materiais laboratoriais." },
+  { icon: FlaskConical, title: "Coleta de exames", desc: "Para mim, o verdadeiro acolhimento exige excelência técnica. Sou especialista em Infectologia Veterinária e, atualmente, realizo minha pós-graduação em Neurologia, pelo Instituto Bioethicus. São áreas complexas que demandam um olhar clínico rigoroso e investigativo — algo que a tranquilidade e o foco do atendimento domiciliar me permitem exercer com precisão. Meu compromisso é entregar uma medicina de ponta, garantindo o melhor cuidado sem que seu pet precise cruzar a porta de casa." },
   { icon: Cpu, title: "Microchipagem", desc: "Identificação para viagens nacionais e internacionais." },
   { icon: HeartPulse, title: "Suporte Terapêutico", desc: "Realização de medicações e exames solicitados por profissionais externos, com todo o rigor técnico e o conforto do atendimento em casa." },
   { icon: Users, title: "Parcerias Especializadas", desc: "Encaminhamento para exames de imagem e especialistas parceiros. Centralizamos todo o cuidado para que você e seu pet tenham suporte completo." },
