@@ -28,10 +28,10 @@ export function Hero() {
             Atendimento Veterinário em Sorocaba/SP
           </span>
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] text-white md:text-6xl lg:text-7xl drop-shadow-lg">
-            Saúde e carinho, sem sair de casa
+            Veterinário em domicílio em Sorocaba
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/90 md:text-lg drop-shadow">
-            Atendimento veterinário humanizado, com calma e atenção exclusiva. Mais bem-estar para o seu pet e comodidade para você.
+            Saúde e carinho sem sair de casa. Atendimento veterinário humanizado, com calma e atenção exclusiva para o seu pet.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a
