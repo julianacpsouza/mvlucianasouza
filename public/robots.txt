@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mvlucianasouza.lovable.app/sitemap.xml
