@@ -18,6 +18,10 @@ const faqs = [
     q: "Quanto tempo dura uma consulta em casa?",
     a: "Em média 45 a 60 minutos, com tempo dedicado à anamnese, exame físico e orientações ao tutor.",
   },
+  {
+    q: "Atendimento veterinário em casa é seguro para filhotes e pets idosos?",
+    a: "Sim — é justamente o público que mais se beneficia. Filhotes que ainda não completaram o ciclo vacinal evitam exposição a vírus em salas de espera, e pets idosos não passam pelo estresse do trajeto, que pode descompensar condições cardíacas, renais ou articulares.",
+  },
 ];
 
 export function FAQ() {
